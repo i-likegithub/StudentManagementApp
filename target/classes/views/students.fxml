@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.VBox?>
+
+<VBox spacing="10"
+      alignment="CENTER"
+      xmlns:fx="http://javafx.com/fxml"
+      fx:controller="com.studentapp.controllers.StudentViewController">
+
+    <Label text="Student Management"/>
+
+    <TextField fx:id="nameField"
+               promptText="Name"/>
+
+    <TextField fx:id="courseField"
+               promptText="Course"/>
+
+    <TextField fx:id="emailField"
+               promptText="Email"/>
+
+    <Button text="Add Student"
+            onAction="#handleAddStudent"/>
+
+    <TableView fx:id="studentTable"
+               prefHeight="300">
+
+        <columns>
+
+            <TableColumn fx:id="idColumn"
+                         text="ID"/>
+
+            <TableColumn fx:id="nameColumn"
+                         text="Name"/>
+
+            <TableColumn fx:id="courseColumn"
+                         text="Course"/>
+
+            <TableColumn fx:id="emailColumn"
+                         text="Email"/>
+
+        </columns>
+
+    </TableView>
+
+    <Button text="Delete Selected"
+            onAction="#handleDeleteStudent"/>
+
+</VBox>

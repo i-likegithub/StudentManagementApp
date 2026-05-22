@@ -1,0 +1,9 @@
+com\studentapp\controllers\DashboardController.class
+com\example\studentmanagementapp\HelloApplication.class
+com\studentapp\models\Student.class
+com\example\studentmanagementapp\Launcher.class
+com\studentapp\controllers\StudentController.class
+com\studentapp\controllers\StudentViewController.class
+com\studentapp\controllers\LoginController.class
+com\studentapp\Main.class
+com\example\studentmanagementapp\HelloController.class
